@@ -1,0 +1,60 @@
+﻿body {
+    background-color: #17181a;
+    padding: 4em;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/91bff978530457.5ca74580acc42.jpg");
+    background-size:cover;
+}
+
+form 
+{
+    width:min-content;
+    background-color: #ffffff;
+    border-radius:3%;
+    padding:1em;
+    margin-top:12.8%;
+}
+
+input[type=file] 
+{
+    width:9.9em;
+}
+
+#TopBar
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:3em;
+    z-index:-1;
+}
+
+#Logo {
+    height: min-content;
+    width: min-content;
+    padding-top: 1.7em;
+    padding-left: 1.5em;
+    filter: invert();
+}
+
+#CSVTable 
+{
+    display: inline-block;
+    position: fixed;
+    float: right;
+    top: 7%;
+    left: 25%;
+    width: max-content;
+    max-height: 85%;
+    overflow-y: scroll;
+}
+
+#CantidadTotal, #PromedioRacing 
+{
+    color: white;
+}
+
+#JovenesUniversitariosCasados, #NombresRiver, #EdadesEquipos 
+{
+    margin-top: 1rem;
+}
